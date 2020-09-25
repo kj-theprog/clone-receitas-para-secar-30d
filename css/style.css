@@ -1,0 +1,53 @@
+/* Estilos gerais */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-size: 18px;
+}
+
+p.texto-p {
+    font-size: 12px;
+}
+
+/* Header */
+
+header {
+    background: #00c420;
+    min-height: 50px;
+}
+
+.contador {
+    display: flex;
+}
+
+
+/* section-video */
+
+section.video-vendas {
+    background: #202020;
+}
+
+.btn {
+    color: #000;
+    background: yellow;
+}
+
+
+/* section-amarela */
+
+section.amarelo{
+    color: #000;
+    background: yellow;
+}
+
+
+/* section-branca-1 */
+
+section.branca-1 {
+    color: #000;
+}
