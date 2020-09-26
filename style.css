@@ -1,0 +1,374 @@
+/* Estilos gerais */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    cursor: pointer;
+}
+
+a:hover {
+    color:#FDD309;
+}
+
+img {
+    max-width: 100px;
+}
+
+body {
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+p.texto-p {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #000;
+}
+
+/* Header */
+
+header {
+    background: #009218;
+}
+
+.contador {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contador > div {
+    margin-left: 10px;
+}
+
+.item-tempo {
+    background: rgb(253, 59, 0);
+    height: 100%;
+    font-weight: bold;
+}
+
+
+/* section-video */
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headline{
+    margin: 10px 0 20px;
+    font-size: 24px;
+}
+
+.green{
+    color: rgb(0, 151, 0);
+}
+
+.headline + p {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+section.video-vendas {
+    
+    background-attachment: fixed;background-image: url("//static-public.klickpages.com.br/uploads/media/file/1505640/textura-da-parede-de-tijolo_1194-6421.jpg");
+}
+
+.bg-black {
+    background-color: rgba(0, 0, 0, 0.425);
+    z-index: 1;
+}
+
+.txt-abaixo-video {
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.btn {
+    color: #000;
+    background: #FDD309;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 500px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    font-style: italic;
+    border: rgb(255, 255, 98);
+    box-shadow: 0 .1px 5px rgba(255, 255, 255, 0.479);
+    cursor: pointer;
+}
+
+.btn:hover {
+    animation: UpandDown 1s infinite;
+}
+
+@keyframes UpandDown {
+    from {
+        transform: translate3d(0, 0px, 0);
+    }
+
+    50% {
+        transform: translate3d(0, 5px, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0px, 0);
+    }
+}
+
+
+/* section-amarela */
+
+section.amarelo{
+    color: #000;
+    background: #FDD309;
+}
+
+.titulo{
+    font-size: 24px;
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+.amarelo .container .titulo + p {
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+
+/* section-branca-1 */
+
+section.branca-1 {
+    color: #000;
+}
+
+section.branca-1 .container > p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+section.branca-1 .container > h2 {
+    font-size: 30px;
+    margin: 40px 0;
+}
+
+section.branca-1 .container > img{
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+
+/* Fundo black */
+
+section.black-1 {
+    background-attachment: fixed;background-image: url("//static-public.klickpages.com.br/uploads/media/file/1505640/textura-da-parede-de-tijolo_1194-6421.jpg");
+    /* margin-bottom: 60px; */
+}
+
+section.black-1 .container > h1 {
+    padding: 40px 0;
+    color: #FDD309;
+}
+
+section.black-1 .container > p {
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    line-height: 27px;
+}
+
+
+/* Seciton blak 2 */
+
+section.black-2 {
+    background-attachment: fixed;background-image: url("//static-public.klickpages.com.br/uploads/media/file/1505640/textura-da-parede-de-tijolo_1194-6421.jpg");
+    margin-bottom: 60px;
+}
+
+section.black-2 .container {
+    padding: 60px 0;
+}
+
+section.black-2 .container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section.black-2 .container p {
+    font-size: 18px;
+    margin: 20px 0 ;
+}
+
+section.black-2 .container img {
+    max-width: 450px;
+    margin: 40px 0;
+}
+
+section.black-2 .container p + p {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 40px 0;
+}
+
+section.black-2 .container button {
+    font-size: 16px;
+    max-width: 445px;
+}
+
+
+/* Section white-1 */
+
+section.white-1 .container ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.white-1 .container ul li {
+    flex: 0 0 calc(50%% - 20px);
+    max-width: calc(50% - 20px);
+    color: #000;
+    margin: 0 auto;
+}
+
+section.white-1 .container ul li p{
+    color: #000;
+    max-width: 300px;
+    margin: 20px 20px 60px 20px;
+}
+
+section.black-3 {
+    background-attachment: fixed;background-image: url("//static-public.klickpages.com.br/uploads/media/file/1505640/textura-da-parede-de-tijolo_1194-6421.jpg");
+}
+
+section.black-3 .container h1 {
+    color: #FDD309;
+    padding: 40px 0;
+}
+
+section.black-3 .container img {
+    max-width: 350px;
+    margin: 40px 0;
+}
+
+section.black-3 .container p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+
+section.black-3 .container > .texto-p {
+    color: white;
+    padding: 20px 0 40px 0;
+}
+
+section.black-3 .container button {
+    margin: 40px 0 20px 0;
+}
+
+/* White-4 */
+
+section.white-4 {
+    color: #000;
+}
+
+
+section.white-4 .container h1 {
+    padding: 40px 0;
+    /* margin-bottom: 40px; */
+}
+
+section.white-4 .container h2 {
+    margin: 40px 0 0 0;
+}
+
+section.white-4 .container button {
+    margin: 40px 0 0 0;
+}
+
+section.white-4 .container h4 {
+    margin: 40px 0 20px 0;
+}
+
+blockquote {
+    max-width: 80%;
+    color: #000;
+    margin: 20px auto;
+}
+
+section.black-5 {
+    margin-top: 60px;
+    background-attachment: fixed;background-image: url("//static-public.klickpages.com.br/uploads/media/file/1505640/textura-da-parede-de-tijolo_1194-6421.jpg");
+}
+
+section.black-5 .container{
+    display: flex;
+    padding: 40px;
+}
+
+section.black-5 h1 {
+    color: #FDD309;
+    padding: 20px 0;
+    font-size: 18px;
+    margin: 0 10px;
+    max-width: calc(100% - 10px);
+    text-align: left;
+}
+
+section.black-5 p {
+    font-size: 16px;
+    margin: 0 10px;
+    max-width: calc(100% - 10px);
+    text-align: left;
+}
+
+section.black-5 button {
+
+    margin: 80px auto 0 auto;
+}
+
+
+/* white-4 */
+
+section.white-4 .container p {
+ margin: 20px 0;
+ font-size: 16px;
+ margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    height: 120px;
+    background: #404040;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer a, footer p{
+    padding: 20px;
+    line-height: 20px;
+}
+
